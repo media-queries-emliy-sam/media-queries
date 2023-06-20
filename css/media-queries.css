@@ -42,9 +42,7 @@ h1 {
     display: none;
 }
 
-list-items{
 
-}
 
 .nav-links {
     list-style: none;
@@ -56,14 +54,17 @@ list-items{
     flex: 0 0 65%;
 }
 
+
 @media screen and (max-width:576px) {
     #main .row {
         flex-direction: column;
+        font-family: "ubuntu", sans-serif;
+
     }
     .nav-links{
-        background-color: #ccc;
         list-style: none;
         text-align: center;
+        padding: 0;
     }
     #top .row{
         flex-direction: column;
@@ -73,11 +74,24 @@ list-items{
         display: flex;
         border: lightgrey solid 2px;
         background-color: lightblue;
-        padding: 10px;
+        padding: 20px;
         text-align: center;
+        font-family: "roboto", sans-serif;
+        color: #ccc;
+
     }
     h1 {
         text-align: center;
+        font-size: 4em;
+        margin: 10px;
+
     }
+    li {
+        padding: 20px;
+        background-color: #ccc;
+        font-family: "roboto" , sans-serif;
+        font-size: 1.25em;
+    }
+
 }
 
